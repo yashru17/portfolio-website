@@ -36,7 +36,7 @@ const Navbar = () => {
   return (
     <div
       id="navbar"
-      className=" w-full bg-black text-white fixed top-0 left-0 flex justify-center items-center"
+      className="z-50 w-full bg-black text-white fixed top-0 left-0 flex justify-center items-center"
     >
       <div className="flex lg:flex-row md:flex-col justify-between items-center w-[85%] h-20">
         <div className="mx-10">
@@ -63,7 +63,7 @@ const Navbar = () => {
         </div>
 
         {menu && (
-          <div className=" z-40 absolute top-0 left-0 w-screen h-screen bg-gradient-to-b from-black via-black to-gray-800">
+          <div className="absolute top-0 left-0 w-screen h-screen bg-gradient-to-b from-black via-black to-gray-800">
             <ul className="h-full flex flex-col items-center justify-center text-2xl gap-10">
               {links.map(({ id, link, path }) => (
                 <li

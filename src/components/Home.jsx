@@ -7,9 +7,9 @@ const Home = () => {
   return (
     <div
       id="home-container"
-      className="bg-gradient-to-b from-gray-900 via-gray-900 to-gray-500 text-white w-full h-screen flex  justify-center items-center overflow-x-hidden"
+      className="bg-gradient-to-b from-gray-900 via-gray-900 to-gray-500 text-white w-full h-screen flex  justify-center items-center overflow-x-hidden mt-20"
     >
-      <div className="w-[85%] lg:flex md:flex justify-between items-center lg:mt-0 md:mt-0 mt-20">
+      <div className="w-[85%] lg:flex md:flex justify-between items-center ">
         <div className=" lg:w-[50%] md:w-[50%] flex flex-col justify-center items-left gap-8 lg:p-10 md:p-10">
           <div className="w-full">
             <h1 className="lg:text-5xl md:text-5xl text-4xl font-bold tracking-wide">
@@ -34,8 +34,8 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className="lg:z-0 md:z-0 -z-10 lg:w-[50%] lmd:w-[50%] lg:p-20 md:p-20 p-8 lg:flex md:flex justify-center items-center hidden">
-          <div className=" lg:h-80 lg:w-80 md:h-80 md:w-80 h-44 w-44 rounded-full overflow-hidden shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)]">
+        <div className=" lg:w-[50%] lmd:w-[50%] lg:p-20 md:p-20 p-8 lg:flex md:flex justify-center items-center">
+          <div className=" lg:h-80 lg:w-80 md:h-80 md:w-80 h-44 w-44 rounded-full overflow-hidden m-auto">
             <img
               src={HeroImage}
               alt="hero-image"
