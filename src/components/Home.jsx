@@ -38,10 +38,10 @@ const Home = () => {
             </button>
           </div>
           <ul className="flex gap-12 text-2xl mt-10 ">
-            <a href="https://www.linkedin.com/in/yashumap/"><img src={Linkedin} className="w-6 cursor-pointer  "/></a>
-            <a href="https://github.com/yashru17"><img src={Github} className="w-6 cursor-pointer  "/></a>
-            <a href="https://leetcode.com/yashrumap/"><img src={Leetcode} className="w-6 cursor-pointer "/></a>
-            <a href="mailto:yashrumap@gmail.com"><img src={Gmail} className="w-6 cursor-pointer  "/></a>
+            <a href="https://www.linkedin.com/in/yashumap/" target="_blank"><img src={Linkedin} className="w-6 cursor-pointer  "/></a>
+            <a href="https://github.com/yashru17" target="_blank"><img src={Github} className="w-6 cursor-pointer  "/></a>
+            <a href="https://leetcode.com/yashrumap/" target="_blank"><img src={Leetcode} className="w-6 cursor-pointer "/></a>
+            <a href="mailto:yashrumap@gmail.com" target="_blank"><img src={Gmail} className="w-6 cursor-pointer  "/></a>
           </ul>
         </div>
         <div className=" lg:w-[50%] lmd:w-[50%] lg:p-20 md:p-20 p-8 lg:flex md:flex justify-center items-center">
