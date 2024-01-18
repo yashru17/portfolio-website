@@ -9,27 +9,27 @@ const Navbar = () => {
     {
       id: 1,
       link: "HOME",
-      path: "/",
+      path: "#home-container",
     },
     {
       id: 2,
       link: "ABOUT",
-      path: "about",
+      path: "#about-container",
     },
     {
       id: 3,
       link: "SKILLS",
-      path: "skills",
+      path: "#skills-container",
     },
     {
       id: 4,
       link: "PROJECTS",
-      path: "projects",
+      path: "#projects-container",
     },
     {
       id: 5,
       link: "CONTACT",
-      path: "contact",
+      path: "#contact-container",
     },
   ];
 
@@ -38,19 +38,19 @@ const Navbar = () => {
       id="navbar"
       className="z-50 w-full bg-black text-white fixed top-0 left-0 flex justify-center items-center"
     >
-      <div className="flex lg:flex-row md:flex-col justify-between items-center w-[85%] h-20">
+      <div className="flex lg:flex-row md:flex-col justify-between items-center w-[75%] h-20">
         <div className="mx-10">
           <h1 className="fredericka-the-great-regular lg:text-4xl md:text-3xl text-xl   tracking-widest md:text-red-400 lg:text-white ">
             Yash Umap
           </h1>
         </div>
-        <ul className="md:flex justify-between lg:gap-14 lg:text-xl mx-8 hidden md:py-4 md:text-lg md:gap-10 lg:py-0 ">
+        <ul className="md:flex justify-between lg:gap-10 lg:text-xl mx-8 hidden md:py-4 md:text-lg md:gap-6 lg:py-0 ">
           {links.map(({ id, link, path }) => (
             <li
               key={id}
               className=" Z duration-75 capitalize cursor-pointer hover:text-slate-400 text-center "
             >
-              {link}
+              <a href={path}>{link}</a>
             </li>
           ))}
         </ul>

@@ -42,7 +42,6 @@ html {
 
 #home-container,
 #about-container,
-#skills-container,
-#navbar {
+#skills-container {
     scroll-snap-align: end;
 } */

@@ -12,9 +12,9 @@ const Home = () => {
   return (
     <div
       id="home-container"
-      className="bg-gradient-to-b from-gray-900 via-gray-800 to-gray-700 text-white w-full h-[calc(100vh-80px)] flex  justify-center items-center overflow-x-hidden mt-20"
+      className="bg-gradient-to-b from-black via-gray-900 to-gray-800 text-white w-full lg:h-[calc(100vh-80px)] md:h-[calc(100vh-80px)] flex  justify-center items-center overflow-x-hidden mt-20"
     >
-      <div className="w-[85%] lg:flex md:flex justify-between items-center ">
+      <div className="w-[75%] lg:flex md:flex justify-between items-center ">
         <div className=" lg:w-[50%] md:w-[50%] flex flex-col justify-center items-left gap-8 lg:p-10 md:p-10 relative lg:pb-0">
           <div className="w-full">
             <h1 className="exo-2-regular lg:text-5xl md:text-5xl text-4xl font-bold tracking-wide">
