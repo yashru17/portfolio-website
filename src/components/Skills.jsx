@@ -1,5 +1,5 @@
 import React from "react";
-import Skillcard from "./Skills/Skillcard";
+import Skillcard from "./skillSection/Skillcard";
 
 import Html from "../assets/html.svg";
 import Css from "../assets/css.svg";
