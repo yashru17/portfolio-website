@@ -1,12 +1,12 @@
 import React from "react";
 import HeroImage from "../assets/yash4.png";
-import { FaArrowCircleRight, FaGithub, FaLinkedin,  } from "react-icons/fa";
+import { FaArrowCircleRight } from "react-icons/fa";
 import { CiLocationArrow1 } from "react-icons/ci";
-import { SiGmail, SiLeetcode } from "react-icons/si";
-import Github from "../assets/github.svg"
-import Gmail from "../assets/gmail.svg"
-import Leetcode from "../assets/leetcode.svg"
-import Linkedin from "../assets/linkedin.svg"
+import Github from "../assets/github.svg";
+import Gmail from "../assets/gmail.svg";
+import Leetcode from "../assets/leetcode.svg";
+import Linkedin from "../assets/linkedin.svg";
+import Social from "./Social";
 
 const Home = () => {
   return (
@@ -30,19 +30,14 @@ const Home = () => {
           </div>
           <div className="">
             <button className="flex gap-2 items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg px-5 py-3 group hover:scale-105 duration-500 shadow-[5px_10px_20px_rgba(8,_112,_184,_0.7)]">
-              Portfolio
+              Resume
               <span>
                 <FaArrowCircleRight className="inline-block group-hover:hidden" />
                 <CiLocationArrow1 className="hidden group-hover:inline-block" />
               </span>
             </button>
           </div>
-          <ul className="flex gap-12 text-2xl mt-10 ">
-            <a href="https://www.linkedin.com/in/yashumap/" target="_blank"><img src={Linkedin} className="w-6 cursor-pointer  "/></a>
-            <a href="https://github.com/yashru17" target="_blank"><img src={Github} className="w-6 cursor-pointer  "/></a>
-            <a href="https://leetcode.com/yashrumap/" target="_blank"><img src={Leetcode} className="w-6 cursor-pointer "/></a>
-            <a href="mailto:yashrumap@gmail.com" target="_blank"><img src={Gmail} className="w-6 cursor-pointer  "/></a>
-          </ul>
+          <Social />
         </div>
         <div className=" lg:w-[50%] lmd:w-[50%] lg:p-20 md:p-20 p-8 lg:flex md:flex justify-center items-center">
           <div className=" lg:h-80 lg:w-80 md:h-80 md:w-80 h-44 w-44 rounded-full  m-auto  p-3 border-sky-400 border-solid border-4">
