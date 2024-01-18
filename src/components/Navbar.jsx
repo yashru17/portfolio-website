@@ -69,8 +69,9 @@ const Navbar = () => {
                 <li
                   key={id}
                   className="hover:text-slate-400 capitalize cursor-pointer  text-center duration-75"
+                  onClick={() => setMenu(!menu)}
                 >
-                  {link}
+                  <a href={path}>{link}</a>
                 </li>
               ))}
             </ul>
