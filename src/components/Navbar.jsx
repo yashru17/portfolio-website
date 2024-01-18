@@ -8,27 +8,27 @@ const Navbar = () => {
   const links = [
     {
       id: 1,
-      link: "Home",
+      link: "HOME",
       path: "/",
     },
     {
       id: 2,
-      link: "About",
+      link: "ABOUT",
       path: "about",
     },
     {
       id: 3,
-      link: "Skills",
+      link: "SKILLS",
       path: "skills",
     },
     {
       id: 4,
-      link: "Projects",
+      link: "PROJECTS",
       path: "projects",
     },
     {
       id: 5,
-      link: "Contact",
+      link: "CONTACT",
       path: "contact",
     },
   ];
@@ -40,7 +40,7 @@ const Navbar = () => {
     >
       <div className="flex lg:flex-row md:flex-col justify-between items-center w-[85%] h-20">
         <div className="mx-10">
-          <h1 className="lg:text-3xl md:text-3xl text-xl italic font-mono tracking-widest md:text-red-400 lg:text-white ">
+          <h1 className="fredericka-the-great-regular lg:text-4xl md:text-3xl text-xl   tracking-widest md:text-red-400 lg:text-white ">
             Yash Umap
           </h1>
         </div>

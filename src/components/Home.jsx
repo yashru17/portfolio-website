@@ -1,27 +1,31 @@
 import React from "react";
 import HeroImage from "../assets/yash4.png";
-import { FaArrowCircleRight } from "react-icons/fa";
+import { FaArrowCircleRight, FaGithub, FaLinkedin,  } from "react-icons/fa";
 import { CiLocationArrow1 } from "react-icons/ci";
+import { SiGmail, SiLeetcode } from "react-icons/si";
+import Github from "../assets/github.svg"
+import Gmail from "../assets/gmail.svg"
+import Leetcode from "../assets/leetcode.svg"
+import Linkedin from "../assets/linkedin.svg"
 
 const Home = () => {
   return (
     <div
       id="home-container"
-      className="bg-gradient-to-b from-gray-900 via-gray-900 to-gray-500 text-white w-full h-screen flex  justify-center items-center overflow-x-hidden mt-20"
+      className="bg-gradient-to-b from-gray-900 via-gray-800 to-gray-700 text-white w-full h-[calc(100vh-80px)] flex  justify-center items-center overflow-x-hidden mt-20"
     >
       <div className="w-[85%] lg:flex md:flex justify-between items-center ">
-        <div className=" lg:w-[50%] md:w-[50%] flex flex-col justify-center items-left gap-8 lg:p-10 md:p-10">
+        <div className=" lg:w-[50%] md:w-[50%] flex flex-col justify-center items-left gap-8 lg:p-10 md:p-10 relative lg:pb-0">
           <div className="w-full">
-            <h1 className="lg:text-5xl md:text-5xl text-4xl font-bold tracking-wide">
+            <h1 className="exo-2-regular lg:text-5xl md:text-5xl text-4xl font-bold tracking-wide">
               I'm a Full Stack Developer...
             </h1>
           </div>
           <div>
-            <p className="text-md text-wrap text-gray-300 text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-              debitis quos modi est minus, eaque odio, quaerat natus amet
-              quibusdam porro esse, libero tempore officia sapiente architecto
-              ratione eius quasi!
+            <p className="montserrat-alternates-medium text-md text-wrap text-gray-400 text-justify">
+              Passionate about creating exceptional digital solutions, I'm a
+              Full Stack Web Developer with expertise in React, NodeJS, and the
+              MERN stack. And I love to make responsive and dynamic websites.
             </p>
           </div>
           <div className="">
@@ -33,14 +37,22 @@ const Home = () => {
               </span>
             </button>
           </div>
+          <ul className="flex gap-12 text-2xl mt-10 ">
+            <a href="https://www.linkedin.com/in/yashumap/"><img src={Linkedin} className="w-6 cursor-pointer  "/></a>
+            <a href="https://github.com/yashru17"><img src={Github} className="w-6 cursor-pointer  "/></a>
+            <a href="https://leetcode.com/yashrumap/"><img src={Leetcode} className="w-6 cursor-pointer "/></a>
+            <a href="mailto:yashrumap@gmail.com"><img src={Gmail} className="w-6 cursor-pointer  "/></a>
+          </ul>
         </div>
         <div className=" lg:w-[50%] lmd:w-[50%] lg:p-20 md:p-20 p-8 lg:flex md:flex justify-center items-center">
-          <div className=" lg:h-80 lg:w-80 md:h-80 md:w-80 h-44 w-44 rounded-full overflow-hidden m-auto">
-            <img
-              src={HeroImage}
-              alt="hero-image"
-              className=" w-full h-full object-cover scale-110 "
-            />
+          <div className=" lg:h-80 lg:w-80 md:h-80 md:w-80 h-44 w-44 rounded-full  m-auto  p-3 border-sky-400 border-solid border-4">
+            <div className=" lg:h-80 lg:w-80 md:h-80 md:w-80 h-44 w-44 rounded-full  m-auto  p-3 border-green-400 border-solid border-4">
+              <img
+                src={HeroImage}
+                alt="hero-image"
+                className="-translate-x-2 -translate-y-2 rounded-full w-full h-full object-cover scale-110  shadow-red-400 shadow-md p-1 border-2 border-solid border-orange-400"
+              />
+            </div>
           </div>
         </div>
       </div>
