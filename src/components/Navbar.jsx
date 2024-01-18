@@ -48,7 +48,7 @@ const Navbar = () => {
           {links.map(({ id, link, path }) => (
             <li
               key={id}
-              className="hover:underline capitalize cursor-pointer hover:scale-x-105 text-center duration-300"
+              className=" Z duration-75 capitalize cursor-pointer hover:text-slate-400 text-center "
             >
               {link}
             </li>
@@ -68,7 +68,7 @@ const Navbar = () => {
               {links.map(({ id, link, path }) => (
                 <li
                   key={id}
-                  className="hover:underline capitalize cursor-pointer hover:scale-x-105 text-center duration-300"
+                  className="hover:text-slate-400 capitalize cursor-pointer  text-center duration-75"
                 >
                   {link}
                 </li>

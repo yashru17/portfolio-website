@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+
 .parisienne-regular {
     font-family: "Parisienne", cursive;
     font-weight: 400;
@@ -27,4 +33,16 @@
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-  }
+}
+
+/* :root {
+    scroll-snap-type: y mandatory;
+
+}
+
+#home-container,
+#about-container,
+#skills-container,
+#navbar {
+    scroll-snap-align: end;
+} */

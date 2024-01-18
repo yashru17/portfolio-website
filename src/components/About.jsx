@@ -4,10 +4,10 @@ const About = () => {
   return (
     <div
       id="about-container"
-      className="bg-gradient-to-b from-gray-700 via-gray-600 to-gray-700 text-white w-full h-[calc(100vh-80px)] overflow-x-hidden flex justify-center items-center"
+      className=" bg-gradient-to-b from-gray-700 via-gray-600 to-gray-700 text-white w-full h-full overflow-x-hidden flex justify-center items-center"
     >
       <div className="w-[85%] flex flex-col justify-center items-center gap-10">
-        <h1 className="text-5xl text-slate-300 tracking-wider exo-2-regular">
+        <h1 className="border-b-4 border-red-200 pb-1 text-4xl text-slate-300 tracking-wider exo-2-regular">
           ABOUT
         </h1>
         <p className="leading-relaxed max-w-5xl text-xl text-amber-400 text-justify montserrat-alternates-medium">
