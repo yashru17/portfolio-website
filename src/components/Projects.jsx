@@ -48,20 +48,6 @@ const Projects = () => {
       source: "https://github.com/yashru17/weather-app-react",
       demo: "https://weather-app-yu.netlify.app/",
     },
-    {
-      title: "Weather App",
-      info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, voluptatibus.",
-      image: weatherAppSS,
-      source: "https://github.com/yashru17/weather-app-react",
-      demo: "https://weather-app-yu.netlify.app/",
-    },
-    {
-      title: "Weather App",
-      info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, voluptatibus.",
-      image: weatherAppSS,
-      source: "https://github.com/yashru17/weather-app-react",
-      demo: "https://weather-app-yu.netlify.app/",
-    },
   ];
 
   return (
