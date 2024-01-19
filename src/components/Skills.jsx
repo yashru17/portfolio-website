@@ -19,7 +19,7 @@ const Skills = () => {
       id="skills-container"
       className="bg-gradient-to-b from-gray-900 via-gray-800 to-gray-800 text-white w-full h-full flex  justify-center items-center overflow-x-hidden"
     >
-      <div className="lg:w-[65%] md:w-[65%] w-[90%] h-full flex flex-col justify-center items-center mt-44 gap-2">
+      <div className="lg:w-[70%] md:w-[70%] w-[90%] h-full flex flex-col justify-center items-center mt-44 gap-2">
         {/* top */}
         <div className="flex flex-col justify-center items-start w-full gap-4">
           <h1 className="border-b-4 border-red-200 pb-1 text-4xl text-slate-300 tracking-wider exo-2-regular text-center ">

@@ -6,7 +6,7 @@ const About = () => {
       id="about-container"
       className=" bg-gradient-to-b from-gray-800 via-gray-800 to-gray-900 text-white w-full h-full overflow-x-hidden flex justify-center items-center"
     >
-      <div className="lg:w-[65%] md:w-[65%] w-[85%] mt-32 flex flex-col justify-center items-start gap-10">
+      <div className="lg:w-[70%] md:w-[70%] w-[85%] mt-32 flex flex-col justify-center items-start gap-10">
         <h1 className="border-b-4 border-red-200 pb-1 text-4xl text-slate-300 tracking-wider exo-2-regular">
           ABOUT
         </h1>
