@@ -4,7 +4,7 @@ export default function ProjectCard(props) {
   return (
     <div
       id="project-card"
-      className="hover:shadow-md hover:shadow-black duration-300 bg-gray-800 h-[376px] rounded-xl w-[20rem] flex flex-col justify-start items-center overflow-hidden my-6 "
+      className="hover:shadow-md hover:shadow-black duration-300 shadow-[0_8.0px_8.0px_rgba(0,0,0,0.38)] bg-gray-800 h-[376px] rounded-xl w-[20rem] flex flex-col justify-start items-center overflow-hidden my-6 "
     >
       <div className="w-[20rem] h-44 overflow-hidden hover:scale-105 duration-500">
         <img
