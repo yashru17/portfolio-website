@@ -1,15 +1,66 @@
 import React from "react";
 import ProjectCard from "./project/ProjectCard";
 import texture from "../assets/texture.jpg";
+import weatherAppSS from "../assets/weatherSS.png";
+import portfolioSS from "../assets/portfolioSS.png";
 
 const Projects = () => {
   const projectsArray = [
     {
-      title: "E - commerce website",
-      info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, voluptatibus.",
-      image: texture,
+      title: "Portfolio Website",
+      info: "I have created this website using react to showcase my skills knowledge.",
+      image: portfolioSS,
       source: "https://github.com/yashru17/portfolio-website",
       demo: "https://portfolio-website-yu.netlify.app/",
+    },
+    {
+      title: "Weather App",
+      info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, voluptatibus.",
+      image: weatherAppSS,
+      source: "https://github.com/yashru17/weather-app-react",
+      demo: "https://weather-app-yu.netlify.app/",
+    },
+    {
+      title: "Weather App",
+      info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, voluptatibus.",
+      image: weatherAppSS,
+      source: "https://github.com/yashru17/weather-app-react",
+      demo: "https://weather-app-yu.netlify.app/",
+    },
+    {
+      title: "Weather App",
+      info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, voluptatibus.",
+      image: weatherAppSS,
+      source: "https://github.com/yashru17/weather-app-react",
+      demo: "https://weather-app-yu.netlify.app/",
+    },
+    {
+      title: "Weather App",
+      info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, voluptatibus.",
+      image: weatherAppSS,
+      source: "https://github.com/yashru17/weather-app-react",
+      demo: "https://weather-app-yu.netlify.app/",
+    },
+    {
+      title: "Weather App",
+      info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, voluptatibus.",
+      image: weatherAppSS,
+      source: "https://github.com/yashru17/weather-app-react",
+      demo: "https://weather-app-yu.netlify.app/",
+    },
+    {
+      title: "Weather App",
+      info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, voluptatibus.",
+      image: weatherAppSS,
+      source: "https://github.com/yashru17/weather-app-react",
+      demo: "https://weather-app-yu.netlify.app/",
+    },
+    {
+      title: "Weather App",
+      info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, voluptatibus.",
+      image: weatherAppSS,
+      source: "https://github.com/yashru17/weather-app-react",
+      demo: "https://weather-app-yu.netlify.app/",
     },
   ];
 
