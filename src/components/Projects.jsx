@@ -52,19 +52,18 @@ const Projects = () => {
 
   return (
     <div
-      id="project-container"
+      id="projects-container"
       className=" bg-gradient-to-b from-gray-800 via-gray-800 to-gray-900 text-white w-full h-full overflow-x-hidden flex justify-center items-center "
     >
       <div
-        id="projects-container"
-        className="lg:w-[70%] md:w-[70%] w-[85%] mt-44 flex flex-col flex-wrap  justify-center items-start gap-6"
+        className="md:w-[70%] w-[85%] md:mt-32 mt-14 flex flex-col flex-wrap  justify-center items-start gap-6"
       >
         <div>
-          <h1 className="border-b-4 border-red-200 pb-1 text-4xl text-slate-300 tracking-wider exo-2-regular">
+          <h1 className="border-b-2 border-red-200 pb-1 md:text-4xl text-2xl text-slate-300 tracking-wider exo-2-regular">
             PROJECTS
           </h1>
         </div>
-        <div className="flex flex-wrap justify-center gap-4">
+        <div className="flex flex-wrap justify-center gap-4 ">
           {projectsArray.map(({ title, info, image, source, demo }, index) => (
             <ProjectCard
               key={index}

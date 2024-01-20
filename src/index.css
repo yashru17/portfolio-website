@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+body, html {
     scroll-behavior: smooth;
     box-sizing: border-box;    
 }
@@ -47,13 +47,23 @@ body {
     font-style: normal;
 }
 
-/* :root {
-    scroll-snap-type: y mandatory;
-
+@keyframes navbar-animation {
+    from {
+        top: 30px;
+        right: 30px;
+        scale: 0;
+        border-radius: 200%;
+        width: 0;
+        height: 0;
+        display: none;
+    }
+    
+    
+    to {
+        bottom: 0;
+        right: 0;
+        border-radius: 0%;
+        scale: 100%;
+        display: block;
+    }
 }
-
-#home-container,
-#about-container,
-#skills-container {
-    scroll-snap-align: end;
-} */

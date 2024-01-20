@@ -6,11 +6,11 @@ const About = () => {
       id="about-container"
       className=" bg-gradient-to-b from-gray-800 via-gray-800 to-gray-900 text-white w-full h-full overflow-x-hidden flex justify-center items-center"
     >
-      <div className="lg:w-[70%] md:w-[70%] w-[85%] mt-32 flex flex-col justify-center items-start gap-10">
-        <h1 className="border-b-4 border-red-200 pb-1 text-4xl text-slate-300 tracking-wider exo-2-regular">
+      <div className="md:w-[70%] w-[85%] md:mt-32 mt-14 flex flex-col justify-center items-start gap-10">
+        <h1 className="border-b-2 border-red-200 pb-1 md:text-4xl text-2xl text-slate-300 tracking-wider exo-2-regular">
           ABOUT
         </h1>
-        <p className="leading-relaxed max-w-5xl lg:text-xl md:text-xl text-md text-gray-400 text-justify montserrat-alternates-medium">
+        <p className="leading-relaxed max-w-5xl md:text-xl text-md text-gray-400 text-justify montserrat-alternates-medium">
           &emsp;&emsp;&emsp;<span className="text-6xl text-blue-800">H</span>ey
           there! I'm{" "}
           <b className="text-orange-500 text-xl fredericka-the-great-regular">

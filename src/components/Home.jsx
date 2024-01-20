@@ -12,12 +12,12 @@ const Home = () => {
   return (
     <div
       id="home-container"
-      className="bg-gradient-to-b from-black via-gray-900 to-gray-800 text-white w-full lg:h-[calc(100vh-80px)] md:h-[calc(100vh-80px)] flex  justify-center items-center overflow-x-hidden mt-20"
+      className="bg-gradient-to-b from-black via-gray-900 to-gray-800 text-white w-full md:h-[calc(100vh-80px)] flex  justify-center items-center overflow-x-hidden mt-20"
     >
-      <div className="w-[75%] lg:flex md:flex justify-between items-center ">
-        <div className=" lg:w-[50%] md:w-[50%] flex flex-col justify-center items-left gap-8 lg:p-10 md:p-10 relative lg:pb-0">
+      <div className="w-[75%] md:flex justify-between items-center ">
+        <div className=" md:w-[50%] flex flex-col justify-center items-left gap-8 md:p-10 relative lg:pb-0">
           <div className="w-full">
-            <h1 className="exo-2-regular lg:text-5xl md:text-5xl text-4xl font-bold tracking-wide">
+            <h1 className="exo-2-regular md:text-5xl text-4xl font-bold tracking-wide">
               I'm a Full Stack Developer...
             </h1>
           </div>
@@ -39,13 +39,13 @@ const Home = () => {
           </div>
           <Social />
         </div>
-        <div className=" lg:w-[50%] lmd:w-[50%] lg:p-20 md:p-20 p-8 lg:flex md:flex justify-center items-center">
-          <div className=" lg:h-80 lg:w-80 md:h-80 md:w-80 h-44 w-44 rounded-full  m-auto  p-3 border-sky-400 border-solid border-4">
-            <div className=" lg:h-80 lg:w-80 md:h-80 md:w-80 h-44 w-44 rounded-full  m-auto  p-3 border-green-400 border-solid border-4">
+        <div className=" md:w-[50%] md:p-20 p-8 md:flex justify-center items-center">
+          <div className=" md:h-80 md:w-80 h-40 w-full rounded-full  m-auto  p-3 border-sky-400 border-solid md:border-4">
+            <div className="  md:h-80 md:w-80 h-full w-full rounded-full  m-auto  p-3 border-green-400 border-solid md:border-4">
               <img
                 src={HeroImage}
                 alt="hero-image"
-                className="-translate-x-2 -translate-y-2 rounded-full w-full h-full object-cover scale-110  shadow-red-400 shadow-md p-1 border-2 border-solid border-orange-400"
+                className="md:-translate-x-2 md:-translate-y-2 rounded-full w-full h-full object-cover scale-110  shadow-red-400 shadow-md p-1 border-2 border-solid border-orange-400"
               />
             </div>
           </div>

@@ -9,7 +9,7 @@ const Navbar = () => {
     {
       id: 1,
       link: "HOME",
-      path: "#home-container",
+      path: "#",
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ const Navbar = () => {
     {
       id: 5,
       link: "CONTACT",
-      path: "#contact-container",
+      path: "#contact",
     },
   ];
 
@@ -38,8 +38,8 @@ const Navbar = () => {
       id="navbar"
       className="z-50 w-full bg-black text-white fixed top-0 left-0 flex justify-center items-center"
     >
-      <div className="flex lg:flex-row md:flex-col justify-between items-center w-[75%] h-20">
-        <div className="mx-10">
+      <div className="flex lg:flex-row md:flex-col justify-between items-center w-full md:w-[75%] h-20">
+        <div className="mx-10 ">
           <h1 className="fredericka-the-great-regular lg:text-4xl md:text-3xl text-xl   tracking-widest md:text-red-400 lg:text-white ">
             Yash Umap
           </h1>
@@ -63,7 +63,13 @@ const Navbar = () => {
         </div>
 
         {menu && (
-          <div className="absolute top-0 left-0 w-screen h-screen bg-gradient-to-b from-black via-black to-gray-800">
+          <div
+            id="navbar-for-small-devices"
+            className=" absolute top-0 right-0 w-screen h-screen bg-gradient-to-b from-black via-black to-gray-800"
+            style={{
+              animation: "navbar-animation 500ms",
+            }}
+          >
             <ul className="h-full flex flex-col items-center justify-center text-2xl gap-10">
               {links.map(({ id, link, path }) => (
                 <li
