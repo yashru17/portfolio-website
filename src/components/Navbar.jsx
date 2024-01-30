@@ -48,7 +48,7 @@ const Navbar = () => {
           {links.map(({ id, link, path }) => (
             <li
               key={id}
-              className=" Z duration-75 capitalize cursor-pointer hover:text-slate-400 text-center "
+              className=" oxygen-regular duration-75 capitalize cursor-pointer hover:text-slate-400 text-center "
             >
               <a href={path}>{link}</a>
             </li>
