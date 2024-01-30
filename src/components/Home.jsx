@@ -14,7 +14,7 @@ const Home = () => {
       id="home-container"
       className="bg-gradient-to-b from-black via-gray-900 to-gray-800 text-white w-full md:h-[calc(100vh-80px)] flex  justify-center items-center overflow-x-hidden mt-20"
     >
-      <div className="w-[75%] md:flex justify-between items-center ">
+      <div className="w-[75%] flex md:flex-row flex-col justify-between items-center ">
         <div className=" md:w-[50%] flex flex-col justify-center items-left gap-8 md:p-10 relative lg:pb-0">
           <div className="w-full">
             <h1 className="exo-2-regular md:text-5xl text-4xl font-bold tracking-wide">
@@ -40,12 +40,12 @@ const Home = () => {
           <Social />
         </div>
         <div className=" md:w-[50%] md:p-20 p-8 md:flex justify-center items-center">
-          <div className=" md:h-80 md:w-80 h-40 w-full rounded-full  m-auto  p-3 border-sky-400 border-solid md:border-4">
+          <div className=" md:h-80 md:w-80 h-52 w-52 rounded-full  m-auto  p-3 border-sky-400 border-solid md:border-4">
             <div className="  md:h-80 md:w-80 h-full w-full rounded-full  m-auto  p-3 border-green-400 border-solid md:border-4">
               <img
                 src={HeroImage}
                 alt="hero-image"
-                className="md:-translate-x-2 md:-translate-y-2 rounded-full w-full h-full object-cover scale-110  shadow-red-400 shadow-md p-1 border-2 border-solid border-orange-400"
+                className="md:-translate-x-2 md:-translate-y-2 rounded-full w-56 md:w-full h-full object-cover scale-110  shadow-red-400 shadow-md p-1 border-2 border-solid border-orange-400"
               />
             </div>
           </div>

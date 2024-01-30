@@ -66,7 +66,7 @@ const Projects = () => {
         <div className="flex flex-wrap justify-center gap-4 ">
           {projectsArray.map(({ title, info, image, source, demo }, index) => (
             <ProjectCard
-              key={index}
+              key={source}
               title={title}
               info={info}
               image={image}
