@@ -15,7 +15,7 @@ const Projects = () => {
     },
     {
       title: "Weather App",
-      info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, voluptatibus.",
+      info: "This project shows the realtime weather report for any city and it is created using React",
       image: weatherAppSS,
       source: "https://github.com/yashru17/weather-app-react",
       demo: "https://weather-app-yu.netlify.app/",
