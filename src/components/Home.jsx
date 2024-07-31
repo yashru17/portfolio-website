@@ -30,7 +30,7 @@ const Home = () => {
           </div>
           <div className="">
             <button className="flex gap-2 items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg px-5 py-3 group hover:scale-105 duration-500 shadow-[5px_10px_20px_rgba(8,_112,_184,_0.7)]">
-              Resume
+              <a href="https://drive.google.com/file/d/1xxTw8tNtTmZqevV5x1IWOKm-WhayaHZZ/view?usp=drive_link">Resume</a>
               <span>
                 <FaArrowCircleRight className="inline-block group-hover:hidden" />
                 <CiLocationArrow1 className="hidden group-hover:inline-block" />
