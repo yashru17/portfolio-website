@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/yash4.png";
+import HeroImage from "../assets/photo.jpg";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { CiLocationArrow1 } from "react-icons/ci";
 import Github from "../assets/github.svg";
